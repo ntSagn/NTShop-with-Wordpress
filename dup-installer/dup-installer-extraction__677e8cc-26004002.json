@@ -1,0 +1,45 @@
+{
+    "CL_-=_-=": "DUP_Extraction",
+    "zip_filetime": "current",
+    "archive_action": "donothing",
+    "archive_engine": "manual",
+    "extractonStart": 1714100263.726619,
+    "chunkStart": 0,
+    "root_path": "C:\/xampp\/htdocs\/wordpress\/backup\/",
+    "archive_path": "C:\/xampp\/htdocs\/wordpress\/backup\/20240426_ntshop_677e8ccdd21818ab1092_20240426004002_archive.zip",
+    "ajax1_error_level": 32767,
+    "dawn_status": null,
+    "archive_offset": 0,
+    "do_chunking": false,
+    "chunkedExtractionCompleted": false,
+    "num_files": 0,
+    "sub_folder_archive": "",
+    "max_size_extract_at_a_time": 2097152,
+    "zip_arc_chunk_notice_no": -1,
+    "zip_arc_chunk_notice_change_last_time": 0,
+    "zip_arc_chunks_extract_rates": [],
+    "archive_items_count": 25004,
+    "filters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "20240426_ntshop_677e8ccdd21818ab1092_20240426004002_installer-backup.php"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "dup-installer"
+        ]
+    },
+    "removeFilters": {
+        "CL_-=_-=": "Duplicator\\Installer\\Core\\Deploy\\Files\\Filters",
+        "files": [
+            "C:\/xampp\/htdocs\/wordpress\/backup\/20240426_ntshop_677e8ccdd21818ab1092_20240426004002_installer-backup.php",
+            "C:\/xampp\/htdocs\/wordpress\/backup\/20240426_ntshop_677e8ccdd21818ab1092_20240426004002_archive.zip",
+            "C:\/xampp\/htdocs\/wordpress\/backup\/installer.php",
+            "C:\/xampp\/htdocs\/wordpress\/backup\/dup-installer-bootlog__0d2baf5-26004002.txt"
+        ],
+        "dirsWithoutChilds": [],
+        "dirs": [
+            "C:\/xampp\/htdocs\/wordpress\/backup\/dup-installer"
+        ]
+    }
+}

@@ -1,0 +1,1105 @@
+{
+    "dup_type": "lite",
+    "created": "2024-04-26 00:40:02",
+    "version_dup": "1.5.9",
+    "version_wp": "6.5.2",
+    "version_db": "11.2.3",
+    "version_php": "8.2.16",
+    "version_os": "Linux",
+    "blogname": "NTShop",
+    "exportOnlyDB": 0,
+    "secure_on": 0,
+    "secure_pass": "$2a$08$nsRILwWygCBFK1f8bAmfIup.A7kY53rVJreOAPouDkr0l8TDezOmy",
+    "dbhost": null,
+    "dbname": null,
+    "dbuser": null,
+    "cpnl_host": null,
+    "cpnl_user": null,
+    "cpnl_pass": null,
+    "cpnl_enable": null,
+    "wp_tableprefix": "wp_",
+    "mu_mode": 0,
+    "mu_generation": 0,
+    "mu_siteadmins": [
+        "admin"
+    ],
+    "subsites": [
+        {
+            "id": 1,
+            "domain": "tkthinh.id.vn",
+            "path": "\/",
+            "blogname": "NTShop",
+            "blog_prefix": "wp_",
+            "filteredTables": [],
+            "adminUsers": [
+                {
+                    "ID": "1",
+                    "user_login": "admin",
+                    "id": "1"
+                }
+            ],
+            "fullHomeUrl": "https:\/\/tkthinh.id.vn",
+            "fullSiteUrl": "https:\/\/tkthinh.id.vn",
+            "uploadPath": false,
+            "fullUploadPath": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+            "fullUploadSafePath": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+            "fullUploadUrl": "http:\/\/tkthinh.id.vn\/wp-content\/uploads",
+            "filteredPaths": []
+        }
+    ],
+    "main_site_id": 1,
+    "mu_is_filtered": false,
+    "license_limit": 0,
+    "license_type": 0,
+    "dbInfo": {
+        "buildMode": "MYSQLDUMP",
+        "charSetList": [
+            "utf8mb4",
+            "utf8mb3"
+        ],
+        "collationList": [
+            "utf8mb3_bin",
+            "utf8mb3_general_ci",
+            "utf8mb4_general_ci",
+            "utf8mb4_unicode_520_ci"
+        ],
+        "engineList": [
+            "InnoDB"
+        ],
+        "isTablesUpperCase": 0,
+        "isNameUpperCase": 0,
+        "name": "bitnami_wordpress",
+        "tablesBaseCount": 63,
+        "tablesFinalCount": 63,
+        "muFilteredTableCount": 0,
+        "tablesRowCount": 6886,
+        "tablesSizeOnDisk": 13352960,
+        "tablesList": {
+            "wp_actionscheduler_actions": {
+                "inaccurateRows": 323,
+                "insertedRows": 323,
+                "size": 311296
+            },
+            "wp_actionscheduler_claims": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_actionscheduler_groups": {
+                "inaccurateRows": 7,
+                "insertedRows": 7,
+                "size": 32768
+            },
+            "wp_actionscheduler_logs": {
+                "inaccurateRows": 961,
+                "insertedRows": 961,
+                "size": 196608
+            },
+            "wp_commentmeta": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wp_comments": {
+                "inaccurateRows": 24,
+                "insertedRows": 24,
+                "size": 114688
+            },
+            "wp_duplicator_packages": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_e_events": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_links": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_options": {
+                "inaccurateRows": 946,
+                "insertedRows": 960,
+                "size": 4521984
+            },
+            "wp_postmeta": {
+                "inaccurateRows": 2989,
+                "insertedRows": 2851,
+                "size": 3915776
+            },
+            "wp_posts": {
+                "inaccurateRows": 449,
+                "insertedRows": 462,
+                "size": 1556480
+            },
+            "wp_termmeta": {
+                "inaccurateRows": 83,
+                "insertedRows": 83,
+                "size": 49152
+            },
+            "wp_terms": {
+                "inaccurateRows": 49,
+                "insertedRows": 49,
+                "size": 49152
+            },
+            "wp_term_relationships": {
+                "inaccurateRows": 159,
+                "insertedRows": 159,
+                "size": 32768
+            },
+            "wp_term_taxonomy": {
+                "inaccurateRows": 49,
+                "insertedRows": 49,
+                "size": 49152
+            },
+            "wp_tm_taskmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_tm_tasks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_usermeta": {
+                "inaccurateRows": 326,
+                "insertedRows": 326,
+                "size": 163840
+            },
+            "wp_users": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 65536
+            },
+            "wp_user_registration_sessions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_admin_notes": {
+                "inaccurateRows": 70,
+                "insertedRows": 70,
+                "size": 49152
+            },
+            "wp_wc_admin_note_actions": {
+                "inaccurateRows": 100,
+                "insertedRows": 100,
+                "size": 65536
+            },
+            "wp_wc_category_lookup": {
+                "inaccurateRows": 33,
+                "insertedRows": 33,
+                "size": 16384
+            },
+            "wp_wc_customer_lookup": {
+                "inaccurateRows": 4,
+                "insertedRows": 4,
+                "size": 49152
+            },
+            "wp_wc_download_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_orders": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 131072
+            },
+            "wp_wc_orders_meta": {
+                "inaccurateRows": 60,
+                "insertedRows": 60,
+                "size": 49152
+            },
+            "wp_wc_order_addresses": {
+                "inaccurateRows": 10,
+                "insertedRows": 10,
+                "size": 81920
+            },
+            "wp_wc_order_coupon_lookup": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_wc_order_operational_data": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 49152
+            },
+            "wp_wc_order_product_lookup": {
+                "inaccurateRows": 6,
+                "insertedRows": 6,
+                "size": 81920
+            },
+            "wp_wc_order_stats": {
+                "inaccurateRows": 5,
+                "insertedRows": 5,
+                "size": 65536
+            },
+            "wp_wc_order_tax_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wc_product_attributes_lookup": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_product_download_directories": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_product_meta_lookup": {
+                "inaccurateRows": 68,
+                "insertedRows": 68,
+                "size": 114688
+            },
+            "wp_wc_rate_limits": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wc_reserved_stock": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wc_tax_rate_classes": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 32768
+            },
+            "wp_wc_webhooks": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_api_keys": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_woocommerce_attribute_taxonomies": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_downloadable_product_permissions": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_log": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_order_itemmeta": {
+                "inaccurateRows": 92,
+                "insertedRows": 92,
+                "size": 49152
+            },
+            "wp_woocommerce_order_items": {
+                "inaccurateRows": 12,
+                "insertedRows": 12,
+                "size": 32768
+            },
+            "wp_woocommerce_payment_tokenmeta": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_woocommerce_payment_tokens": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_woocommerce_sessions": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 49152
+            },
+            "wp_woocommerce_shipping_zones": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_woocommerce_shipping_zone_locations": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 65536
+            },
+            "wp_woocommerce_shipping_zone_methods": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_woocommerce_tax_rates": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 81920
+            },
+            "wp_woocommerce_tax_rate_locations": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 49152
+            },
+            "wp_wpf_filters": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 16384
+            },
+            "wp_wpf_meta_keys": {
+                "inaccurateRows": 8,
+                "insertedRows": 8,
+                "size": 32768
+            },
+            "wp_wpf_meta_values": {
+                "inaccurateRows": 11,
+                "insertedRows": 11,
+                "size": 49152
+            },
+            "wp_wpf_meta_values_bk": {
+                "inaccurateRows": 0,
+                "insertedRows": 0,
+                "size": 32768
+            },
+            "wp_wpmailsmtp_debug_events": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 16384
+            },
+            "wp_wpmailsmtp_tasks_meta": {
+                "inaccurateRows": 1,
+                "insertedRows": 1,
+                "size": 16384
+            },
+            "wp_yith_wcwl": {
+                "inaccurateRows": 3,
+                "insertedRows": 3,
+                "size": 32768
+            },
+            "wp_yith_wcwl_lists": {
+                "inaccurateRows": 2,
+                "insertedRows": 2,
+                "size": 49152
+            }
+        },
+        "lowerCaseTableNames": 0,
+        "dbEngine": "MariaDB",
+        "version": "11.2.3",
+        "versionComment": "Source distribution",
+        "viewCount": 0,
+        "procCount": 0,
+        "funcCount": 0,
+        "triggerList": []
+    },
+    "packInfo": {
+        "packageId": 2,
+        "packageName": "20240426_ntshop",
+        "packageHash": "677e8cc-26004002",
+        "secondaryHash": "08dff59-26004002"
+    },
+    "fileInfo": {
+        "dirCount": 3098,
+        "fileCount": 21906,
+        "size": 225892312
+    },
+    "wpInfo": {
+        "version": "6.5.2",
+        "is_multisite": false,
+        "network_id": 1,
+        "targetRoot": "\/opt\/bitnami\/wordpress",
+        "targetPaths": [
+            "\/opt\/bitnami\/wordpress"
+        ],
+        "adminUsers": [
+            {
+                "ID": "1",
+                "user_login": "admin",
+                "id": "1"
+            }
+        ],
+        "configs": {
+            "defines": {
+                "ABSPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/",
+                    "inWpConfig": true
+                },
+                "DB_CHARSET": {
+                    "value": "utf8",
+                    "inWpConfig": true
+                },
+                "DB_COLLATE": {
+                    "value": "",
+                    "inWpConfig": true
+                },
+                "AUTH_KEY": {
+                    "value": ";8RbtqK#A,6:;&eGqE_EC~2\/cq$)YhxeFlBq) `jHdyGt<,c)MEicS)^@<3W%}i^",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_KEY": {
+                    "value": "n^]BFT*YVg_0_)XQp:gV(u\/k:rsTt7eKPYfY4ZA WWY&[=Hzbb.2EW%aH2B}^|nk",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_KEY": {
+                    "value": "_(q5CvPR9gWz2vW .47%BB(;)CN`w8+vo 6k>zViWPgIu@IH<y5}E#UqVns-#qag",
+                    "inWpConfig": true
+                },
+                "NONCE_KEY": {
+                    "value": "%:{R6[q,bn9@9i8GOHC0B,Up\/.?\/s5Y})B88F$~z5z*[yQyyJD2VekT{@W$=[iM!",
+                    "inWpConfig": true
+                },
+                "AUTH_SALT": {
+                    "value": "fL{ClE V:d~ >qh!eWgCxAMxhPV3G@Y(brt$J3xE{}&GVGM4s]=ZY`5WCQ=_b\/XC",
+                    "inWpConfig": true
+                },
+                "SECURE_AUTH_SALT": {
+                    "value": "f{]oGZ~&ao4IRGQq0lLthD{v@2+x-%D#lC:[Ly7,<?21?$:czhCIupt`1^jK|xlF",
+                    "inWpConfig": true
+                },
+                "LOGGED_IN_SALT": {
+                    "value": "|0]-sl:>>tFk634X)lMX,Rjy>G!IXh7^sBl!M;}A`&tE9xVG8G|<KPdfP_qu,L1[",
+                    "inWpConfig": true
+                },
+                "NONCE_SALT": {
+                    "value": ";(XFPyc~4V7%;(e)Zol+^cC$]]X21q)WXX gx\/w%C&:&bOSZ*?^GZ*F\/^<XGDbKJ",
+                    "inWpConfig": true
+                },
+                "WP_SITEURL": {
+                    "value": "http:\/\/tkthinh.id.vn\/",
+                    "inWpConfig": true
+                },
+                "WP_HOME": {
+                    "value": "http:\/\/tkthinh.id.vn\/",
+                    "inWpConfig": true
+                },
+                "WP_CONTENT_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_CONTENT_URL": {
+                    "value": "http:\/\/tkthinh.id.vn\/wp-content",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "WP_PLUGIN_URL": {
+                    "value": "http:\/\/tkthinh.id.vn\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "PLUGINDIR": {
+                    "value": "wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "AUTOSAVE_INTERVAL": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "WP_POST_REVISIONS": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "COOKIE_DOMAIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "MULTISITE": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG": {
+                    "value": false,
+                    "inWpConfig": true
+                },
+                "SCRIPT_DEBUG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_LOG": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_DEBUG_DISPLAY": {
+                    "value": true,
+                    "inWpConfig": false
+                },
+                "WP_MEMORY_LIMIT": {
+                    "value": "40M",
+                    "inWpConfig": false
+                },
+                "WP_MAX_MEMORY_LIMIT": {
+                    "value": "512M",
+                    "inWpConfig": false
+                },
+                "WP_CACHE": {
+                    "value": true,
+                    "inWpConfig": true
+                },
+                "WP_LANG_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/languages",
+                    "inWpConfig": false
+                },
+                "FS_METHOD": {
+                    "value": "direct",
+                    "inWpConfig": true
+                },
+                "WP_CRON_LOCK_TIMEOUT": {
+                    "value": 60,
+                    "inWpConfig": false
+                },
+                "COOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "SITECOOKIEPATH": {
+                    "value": "\/",
+                    "inWpConfig": false
+                },
+                "ADMIN_COOKIE_PATH": {
+                    "value": "\/wp-admin",
+                    "inWpConfig": false
+                },
+                "PLUGINS_COOKIE_PATH": {
+                    "value": "\/wp-content\/plugins",
+                    "inWpConfig": false
+                },
+                "TEMPLATEPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/themes\/bosa",
+                    "inWpConfig": false
+                },
+                "STYLESHEETPATH": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/themes\/bosa-beauty-shop",
+                    "inWpConfig": false
+                },
+                "EMPTY_TRASH_DAYS": {
+                    "value": 30,
+                    "inWpConfig": false
+                },
+                "FORCE_SSL_ADMIN": {
+                    "value": false,
+                    "inWpConfig": false
+                },
+                "WP_AUTO_UPDATE_CORE": {
+                    "value": "minor",
+                    "inWpConfig": true
+                },
+                "WPMU_PLUGIN_DIR": {
+                    "value": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "WPMU_PLUGIN_URL": {
+                    "value": "http:\/\/tkthinh.id.vn\/wp-content\/mu-plugins",
+                    "inWpConfig": false
+                },
+                "MUPLUGINDIR": {
+                    "value": "wp-content\/mu-plugins",
+                    "inWpConfig": false
+                }
+            },
+            "realValues": {
+                "siteUrl": "https:\/\/tkthinh.id.vn",
+                "homeUrl": "https:\/\/tkthinh.id.vn",
+                "loginUrl": "https:\/\/tkthinh.id.vn\/wp-login.php",
+                "contentUrl": "https:\/\/tkthinh.id.vn\/wp-content",
+                "uploadBaseUrl": "http:\/\/tkthinh.id.vn\/wp-content\/uploads",
+                "pluginsUrl": "https:\/\/tkthinh.id.vn\/wp-content\/plugins",
+                "mupluginsUrl": "http:\/\/tkthinh.id.vn\/wp-content\/mu-plugins",
+                "themesUrl": "https:\/\/tkthinh.id.vn\/wp-content\/themes",
+                "originalPaths": {
+                    "home": "\/opt\/bitnami\/wordpress",
+                    "abs": "\/opt\/bitnami\/wordpress",
+                    "wpconfig": "\/opt\/bitnami\/wordpress",
+                    "wpcontent": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "uploads": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/opt\/bitnami\/wordpress\/wp-content\/themes"
+                },
+                "archivePaths": {
+                    "home": "\/opt\/bitnami\/wordpress",
+                    "abs": "\/opt\/bitnami\/wordpress",
+                    "wpconfig": "\/opt\/bitnami\/wordpress",
+                    "wpcontent": "\/opt\/bitnami\/wordpress\/wp-content",
+                    "uploads": "\/opt\/bitnami\/wordpress\/wp-content\/uploads",
+                    "plugins": "\/opt\/bitnami\/wordpress\/wp-content\/plugins",
+                    "muplugins": "\/opt\/bitnami\/wordpress\/wp-content\/mu-plugins",
+                    "themes": "\/opt\/bitnami\/wordpress\/wp-content\/themes"
+                }
+            }
+        },
+        "plugins": {
+            "advanced-import\/advanced-import.php": {
+                "slug": "advanced-import\/advanced-import.php",
+                "name": "Advanced Import",
+                "version": "1.4.1",
+                "pluginURI": "https:\/\/addonspress.com\/item\/advanced-import",
+                "author": "AddonsPress",
+                "authorURI": "https:\/\/addonspress.com\/",
+                "description": "Easily import demo data starter site packages or Migrate your site data",
+                "title": "Advanced Import",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "advanced-wp-reset\/advanced-wp-reset.php": {
+                "slug": "advanced-wp-reset\/advanced-wp-reset.php",
+                "name": "Advanced WP Reset",
+                "version": "2.0.6",
+                "pluginURI": "https:\/\/sigmaplugin.com\/",
+                "author": "SigmaPlugin",
+                "authorURI": "https:\/\/sigmaplugin.com\/",
+                "description": "The ultimate solution for resetting your WordPress database or specific components to their default settings using the advanced reset features.",
+                "title": "Advanced WP Reset",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "bosa-elementor-for-woocommerce\/bosa-elementor-for-woocommerce.php": {
+                "slug": "bosa-elementor-for-woocommerce\/bosa-elementor-for-woocommerce.php",
+                "name": "Bosa Elementor Addons and Templates for WooCommerce",
+                "version": "1.0.13",
+                "pluginURI": "https:\/\/bosathemes.com\/bosa-elementor-for-woocommerce",
+                "author": "Bosa Themes",
+                "authorURI": "https:\/\/bosathemes.com",
+                "description": "A collection of 30+ Free Elementor Templates specially designed for your Shop or Marketplace. It comes with Free WooCommerce based Elementor Widgets Including Product Grid, Product Categories, Product Carousel, Contact Form 7, Post Grid and many more.",
+                "title": "Bosa Elementor Addons and Templates for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "breadcrumb-navxt\/breadcrumb-navxt.php": {
+                "slug": "breadcrumb-navxt\/breadcrumb-navxt.php",
+                "name": "Breadcrumb NavXT",
+                "version": "7.3.0",
+                "pluginURI": "http:\/\/mtekk.us\/code\/breadcrumb-navxt\/",
+                "author": "John Havlik",
+                "authorURI": "http:\/\/mtekk.us\/",
+                "description": "Adds a breadcrumb navigation showing the visitor&#39;s path to their current location. For details on how to use this plugin visit <a href=\"http:\/\/mtekk.us\/code\/breadcrumb-navxt\/\">Breadcrumb NavXT<\/a>.",
+                "title": "Breadcrumb NavXT",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "call-now-button\/call-now-button.php": {
+                "slug": "call-now-button\/call-now-button.php",
+                "name": "Call Now Button",
+                "version": "1.4.9",
+                "pluginURI": "https:\/\/callnowbutton.com",
+                "author": "NowButtons.com",
+                "authorURI": "https:\/\/nowbuttons.com",
+                "description": "Shows a <strong>Call Now Button<\/strong> to your mobile visitors. Easy to use but flexible to meet more demanding requirements. Change placement and color, hide on specific pages, track how many people click them or conversions of your Google Ads campaigns. Create an account to enable extra actions such as <strong>WhatsApp<\/strong>, <strong>Messenger<\/strong>, <strong>Telegram<\/strong>, <strong>Signal<\/strong>, <strong>Skype<\/strong>, <strong>Viber<\/strong>, <strong>Line<\/strong>, <strong>WeChat<\/strong>, <strong>Zalo<\/strong>, <strong>Email<\/strong>, <strong>SMS<\/strong>, <strong>Maps<\/strong> and <strong>links<\/strong>. Also offers additional functionality such as advanced display rules, scheduling, geo rules, appear after scrolling, button animations and much more.",
+                "title": "Call Now Button",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "contact-form-7\/wp-contact-form-7.php": {
+                "slug": "contact-form-7\/wp-contact-form-7.php",
+                "name": "Contact Form 7",
+                "version": "5.9.3",
+                "pluginURI": "https:\/\/contactform7.com\/",
+                "author": "Takayuki Miyoshi",
+                "authorURI": "https:\/\/ideasilo.wordpress.com\/",
+                "description": "Just another contact form plugin. Simple but flexible.",
+                "title": "Contact Form 7",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "duplicator\/duplicator.php": {
+                "slug": "duplicator\/duplicator.php",
+                "name": "Duplicator",
+                "version": "1.5.9",
+                "pluginURI": "https:\/\/duplicator.com\/",
+                "author": "Duplicator",
+                "authorURI": "https:\/\/duplicator.com\/",
+                "description": "Migrate and backup a copy of your WordPress files and database. Duplicate and move a site from one location to another quickly.",
+                "title": "Duplicator",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementor\/elementor.php": {
+                "slug": "elementor\/elementor.php",
+                "name": "Elementor",
+                "version": "3.21.2",
+                "pluginURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash",
+                "author": "Elementor.com",
+                "authorURI": "https:\/\/elementor.com\/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash",
+                "description": "The Elementor Website Builder has it all: drag and drop page builder, pixel perfect design, mobile responsive editing, and more. Get started now!",
+                "title": "Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "elementskit-lite\/elementskit-lite.php": {
+                "slug": "elementskit-lite\/elementskit-lite.php",
+                "name": "ElementsKit Lite",
+                "version": "3.1.2",
+                "pluginURI": "https:\/\/products.wpmet.com\/elementskit",
+                "author": "Wpmet",
+                "authorURI": "https:\/\/wpmet.com\/",
+                "description": "The most advanced addons for Elementor with tons of widgets, Header builder, Footer builder, Mega menu builder, layout pack and powerful custom controls.",
+                "title": "ElementsKit Lite",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "emailkit\/EmailKit.php": {
+                "slug": "emailkit\/EmailKit.php",
+                "name": "EmailKit",
+                "version": "1.5.2",
+                "pluginURI": "https:\/\/wpmet.com\/plugin\/emailkit\/",
+                "author": "wpmet",
+                "authorURI": "https:\/\/wpmet.com",
+                "description": "EmailKit is the most-complete drag-and-drop Email template builder.",
+                "title": "EmailKit",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "keon-toolset\/keon-toolset.php": {
+                "slug": "keon-toolset\/keon-toolset.php",
+                "name": "Keon Toolset",
+                "version": "1.7.2",
+                "pluginURI": "",
+                "author": "Keon Themes",
+                "authorURI": "https:\/\/keonthemes.com",
+                "description": "A easy plugin to import dummy data for themes by Keon Themes.",
+                "title": "Keon Toolset",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "kirki\/kirki.php": {
+                "slug": "kirki\/kirki.php",
+                "name": "Kirki Customizer Framework",
+                "version": "5.1.0",
+                "pluginURI": "https:\/\/themeum.com",
+                "author": "Themeum",
+                "authorURI": "https:\/\/themeum.com",
+                "description": "The Ultimate WordPress Customizer Framework",
+                "title": "Kirki Customizer Framework",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "product-expiry-for-woocommerce\/product-expiry-for-woocommerce.php": {
+                "slug": "product-expiry-for-woocommerce\/product-expiry-for-woocommerce.php",
+                "name": "Product Expiry for WooCommerce",
+                "version": "2.6",
+                "pluginURI": "https:\/\/webcodingplace.com\/product-expiry-for-woocommerce\/",
+                "author": "WebCodingPlace",
+                "authorURI": "https:\/\/webcodingplace.com\/",
+                "description": "Provide expiry date for your products and get notified before expire",
+                "title": "Product Expiry for WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "sina-extension-for-elementor\/sina-extension-for-elementor.php": {
+                "slug": "sina-extension-for-elementor\/sina-extension-for-elementor.php",
+                "name": "Sina Extension for Elementor",
+                "version": "3.5.3",
+                "pluginURI": "https:\/\/sina-extension.sinaextra.com\/",
+                "author": "SinaExtra",
+                "authorURI": "https:\/\/sinaextra.com\/",
+                "description": "A collection of high-quality widgets for Elementor page builder.",
+                "title": "Sina Extension for Elementor",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocustomizer\/woocustomizer.php": {
+                "slug": "woocustomizer\/woocustomizer.php",
+                "name": "StoreCustomizer",
+                "version": "2.5.5",
+                "pluginURI": "https:\/\/kairaweb.com\/wordpress-plugins\/woocustomizer\/",
+                "author": "Kaira",
+                "authorURI": "https:\/\/kairaweb.com\/",
+                "description": "A store customizer plugin for editing your WooCommerce store and product pages, cart and checkout pages and also your user account page, all within the WordPress Customizer.",
+                "title": "StoreCustomizer",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "tidio-live-chat\/tidio-elements.php": {
+                "slug": "tidio-live-chat\/tidio-elements.php",
+                "name": "Tidio Chat",
+                "version": "6.0.19",
+                "pluginURI": "http:\/\/www.tidio.com",
+                "author": "Tidio LLC",
+                "authorURI": "http:\/\/www.tidio.com",
+                "description": "Tidio Live Chat - live chat boosted with chatbots for your online business. Integrates with your website in less than 20 seconds.",
+                "title": "Tidio Chat",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "updraftplus\/updraftplus.php": {
+                "slug": "updraftplus\/updraftplus.php",
+                "name": "UpdraftPlus - Backup\/Restore",
+                "version": "1.24.2",
+                "pluginURI": "https:\/\/updraftplus.com",
+                "author": "UpdraftPlus.Com, DavidAnderson",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "Backup and restore: take backups locally, or backup to Amazon S3, Dropbox, Google Drive, Rackspace, (S)FTP, WebDAV & email, on automatic schedules.",
+                "title": "UpdraftPlus - Backup\/Restore",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "user-registration\/user-registration.php": {
+                "slug": "user-registration\/user-registration.php",
+                "name": "User Registration",
+                "version": "3.2.0",
+                "pluginURI": "https:\/\/wpuserregistration.com\/",
+                "author": "WPEverest",
+                "authorURI": "https:\/\/wpuserregistration.com",
+                "description": "Drag and Drop user registration form and login form builder.",
+                "title": "User Registration",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "woocommerce\/woocommerce.php": {
+                "slug": "woocommerce\/woocommerce.php",
+                "name": "WooCommerce",
+                "version": "8.8.2",
+                "pluginURI": "https:\/\/woocommerce.com\/",
+                "author": "Automattic",
+                "authorURI": "https:\/\/woocommerce.com",
+                "description": "An ecommerce toolkit that helps you sell anything. Beautifully.",
+                "title": "WooCommerce",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-optimize\/wp-optimize.php": {
+                "slug": "wp-optimize\/wp-optimize.php",
+                "name": "WP-Optimize - Clean, Compress, Cache",
+                "version": "3.3.2",
+                "pluginURI": "https:\/\/getwpo.com",
+                "author": "David Anderson, Ruhani Rabin, Team Updraft",
+                "authorURI": "https:\/\/updraftplus.com",
+                "description": "WP-Optimize makes your site fast and efficient. It cleans the database, compresses images and caches pages. Fast sites attract more traffic and users.",
+                "title": "WP-Optimize - Clean, Compress, Cache",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "wp-mail-smtp\/wp_mail_smtp.php": {
+                "slug": "wp-mail-smtp\/wp_mail_smtp.php",
+                "name": "WP Mail SMTP",
+                "version": "4.0.1",
+                "pluginURI": "https:\/\/wpmailsmtp.com\/",
+                "author": "WP Mail SMTP",
+                "authorURI": "https:\/\/wpmailsmtp.com\/",
+                "description": "Reconfigures the <code>wp_mail()<\/code> function to use Gmail\/Mailgun\/SendGrid\/SMTP instead of the default <code>mail()<\/code> and creates an options page to manage the settings.",
+                "title": "WP Mail SMTP",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yith-woocommerce-compare\/init.php": {
+                "slug": "yith-woocommerce-compare\/init.php",
+                "name": "YITH WooCommerce Compare",
+                "version": "2.38.0",
+                "pluginURI": "https:\/\/yithemes.com\/themes\/plugins\/yith-woocommerce-compare\/",
+                "author": "YITH",
+                "authorURI": "https:\/\/yithemes.com\/",
+                "description": "The <code><strong>YITH WooCommerce Compare<\/strong><\/code> plugin allow you to compare in a simple and efficient way products on sale in your shop and analyze their main features in a single table. <a href=\"https:\/\/yithemes.com\/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH<\/strong><\/a>.",
+                "title": "YITH WooCommerce Compare",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yith-woocommerce-quick-view\/init.php": {
+                "slug": "yith-woocommerce-quick-view\/init.php",
+                "name": "YITH WooCommerce Quick View",
+                "version": "1.38.0",
+                "pluginURI": "https:\/\/yithemes.com\/themes\/plugins\/yith-woocommerce-quick-view",
+                "author": "YITH",
+                "authorURI": "https:\/\/yithemes.com\/",
+                "description": "The <code><strong>YITH WooCommerce Quick View<\/strong><\/code> plugin allows your customers to have a quick look about products. <a href=\"https:\/\/yithemes.com\/\" target=\"_blank\">Get more plugins for your e-commerce shop on <strong>YITH<\/strong><\/a>.",
+                "title": "YITH WooCommerce Quick View",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "yith-woocommerce-wishlist\/init.php": {
+                "slug": "yith-woocommerce-wishlist\/init.php",
+                "name": "YITH WooCommerce Wishlist",
+                "version": "3.32.0",
+                "pluginURI": "https:\/\/yithemes.com\/themes\/plugins\/yith-woocommerce-wishlist\/",
+                "author": "YITH",
+                "authorURI": "https:\/\/yithemes.com\/",
+                "description": "<code><strong>YITH WooCommerce Wishlist<\/strong><\/code> gives your users the possibility to create, fill, manage and share their wishlists allowing you to analyze their interests and needs to improve your marketing strategies. <a href=\"https:\/\/yithemes.com\/\" target=\"_blank\">Get more plugins for your e-commerce on <strong>YITH<\/strong><\/a>",
+                "title": "YITH WooCommerce Wishlist",
+                "networkActive": false,
+                "active": true,
+                "mustUse": false,
+                "dropIns": false
+            },
+            "advanced-cache.php": {
+                "slug": "advanced-cache.php",
+                "name": "advanced-cache.php",
+                "version": "",
+                "pluginURI": "",
+                "author": "",
+                "authorURI": "",
+                "description": "",
+                "title": "",
+                "networkActive": false,
+                "active": false,
+                "mustUse": false,
+                "dropIns": true
+            }
+        },
+        "themes": {
+            "bosa-beauty-shop": {
+                "slug": "bosa-beauty-shop",
+                "themeName": "Bosa Beauty Shop",
+                "version": "1.0.0",
+                "themeURI": "https:\/\/bosathemes.com\/bosa-beauty-shop",
+                "parentTheme": "bosa",
+                "template": "bosa",
+                "stylesheet": "bosa-beauty-shop",
+                "description": "Bosa Beauty Shop is multipurpose eCommerce theme. Bosa Beauty Shop is beautiful, fast, lightweight, responsive, extremely customizable theme that you can use as a foundation to build versatile sites such as e-commerce, beauty products, women's fashion, smart home products, sports, toy shops, gadgets stores, jewelry shops, men's clothing, electronics, furniture, retail, digital products and preferably ideal for any type of eCommerce sites. Bosa Beauty Shop is a child theme of Bosa, a free multipurpose WordPress theme. Bosa Beauty Shop works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa Beauty Shop is built with SEO, speed, and usability in mind with the multiple Header &amp; Footer layouts, predesigned starter sites includes awesome Home &amp; Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa Beauty Shop is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose eCommerce theme? Look no further! Browse the demo to see that it's the only theme you will ever need: https:\/\/demo.bosathemes.com\/bosa\/beauty-shop",
+                "author": "Bosa Themes",
+                "authorURI": "https:\/\/bosathemes.com",
+                "tags": [
+                    "blog",
+                    "portfolio",
+                    "news",
+                    "grid-Layout",
+                    "one-column",
+                    "two-columns",
+                    "three-columns",
+                    "flexible-header",
+                    "left-sidebar",
+                    "right-sidebar",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-styles",
+                    "wide-blocks"
+                ],
+                "isAllowed": true,
+                "isActive": true,
+                "defaultTheme": false
+            },
+            "bosa": {
+                "slug": "bosa",
+                "themeName": "Bosa",
+                "version": "1.4.9",
+                "themeURI": "https:\/\/bosathemes.com\/bosa",
+                "parentTheme": false,
+                "template": "bosa",
+                "stylesheet": "bosa",
+                "description": "Bosa is multipurpose theme with beautifully crafted design. Bosa is beautiful, fast, lightweight, responsive, extremely customizable, multipurpose theme that you can use as a foundation to build versatile sites such as business, startups, business agencies, corporate, law firms, blog, portfolio, travel, education, fitness, university portal, church, restaurant, medical, shop, magazines, finance, accounting, consulting and preferably ideal for any type of sites. Bosa works perfectly with Gutenberg and the most popular page builder Elementor that can easily drag-and-drop your ideas from the interface. Bosa is built with SEO, speed, and usability in mind with the multiple Header &amp; Footer layouts, predesigned starter sites includes awesome Home &amp; Inner Pages that is incredibly customizable and powerful enough to take a stand among the crowd. Bosa is compatible with all major plugins like WooCommerce, Yoast, Contact form 7, Mailchimp for WordPress, bbPress, etc. Looking for a Multipurpose theme? Look no further! Browse the demo to see that it's the only theme you will ever need: https:\/\/demo.bosathemes.com\/bosa\/agency\/",
+                "author": "Bosa Themes",
+                "authorURI": "https:\/\/bosathemes.com",
+                "tags": [
+                    "blog",
+                    "portfolio",
+                    "news",
+                    "grid-Layout",
+                    "one-column",
+                    "two-columns",
+                    "three-columns",
+                    "flexible-header",
+                    "left-sidebar",
+                    "right-sidebar",
+                    "custom-background",
+                    "custom-colors",
+                    "custom-logo",
+                    "custom-menu",
+                    "featured-images",
+                    "footer-widgets",
+                    "full-width-template",
+                    "post-formats",
+                    "rtl-language-support",
+                    "theme-options",
+                    "sticky-post",
+                    "threaded-comments",
+                    "translation-ready",
+                    "block-styles",
+                    "wide-blocks"
+                ],
+                "isAllowed": true,
+                "isActive": false,
+                "defaultTheme": false
+            }
+        }
+    },
+    "defaultStorageId": -1,
+    "components": [
+        "package_component_db",
+        "package_component_core",
+        "package_component_plugins",
+        "package_component_themes",
+        "package_component_uploads",
+        "package_component_other"
+    ],
+    "opts_delete": "[\"duplicator_ui_view_state\",\"duplicator_package_active\",\"duplicator_settings\",\"duplicator_is_pro_enable_notice_dismissed\"]",
+    "brand": {
+        "name": "Duplicator",
+        "isDefault": true,
+        "logo": "<i class=\"fa fa-bolt fa-sm\"><\/i> Duplicator",
+        "enabled": false,
+        "style": []
+    },
+    "overwriteInstallerParams": {
+        "blogname": {
+            "value": "NTShop"
+        }
+    },
+    "installer_base_name": "installer.php.bak",
+    "installer_backup_name": "20240426_ntshop_677e8ccdd21818ab1092_20240426004002_installer-backup.php",
+    "package_name": "20240426_ntshop_677e8ccdd21818ab1092_20240426004002_archive.zip",
+    "package_hash": "677e8cc-26004002",
+    "package_notes": ""
+}

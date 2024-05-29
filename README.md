@@ -1,1 +1,0 @@
-# NTShop-with-Wordpress

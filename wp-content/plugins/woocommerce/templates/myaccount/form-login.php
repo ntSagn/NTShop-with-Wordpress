@@ -10,7 +10,7 @@
  * happen. When this occurs the version of the template file will be bumped and
  * the readme will list any important changes.
  *
- * @see     https://woo.com/document/template-structure/
+ * @see     https://woocommerce.com/document/template-structure/
  * @package WooCommerce\Templates
  * @version 7.0.1
  */
@@ -56,9 +56,12 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 			<p class="woocommerce-LostPassword lost_password">
 				<a href="<?php echo esc_url( wp_lostpassword_url() ); ?>"><?php esc_html_e( 'Lost your password?', 'woocommerce' ); ?></a>
 			</p>
-
+			<p>
+				Don't have an account? <a href="https://tkthinh.id.vn/registration">Register now!</a>
+			</p>
+			
 			<?php do_action( 'woocommerce_login_form_end' ); ?>
-
+			
 		</form>
 
 <?php if ( 'yes' === get_option( 'woocommerce_enable_myaccount_registration' ) ) : ?>

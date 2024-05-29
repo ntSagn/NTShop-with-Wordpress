@@ -1,5 +1,8 @@
 <?php
-
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * The base theme install functionality of the plugin.
  *

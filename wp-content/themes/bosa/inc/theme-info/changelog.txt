@@ -1,3 +1,6 @@
+= 1.4.9 =
+* Fontawesome icons updated.
+
 = 1.4.8 =
 * Style updated.
 

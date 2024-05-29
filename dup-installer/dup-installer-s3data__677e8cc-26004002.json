@@ -1,0 +1,73 @@
+{
+    "report": {
+        "pass": 0,
+        "chunk": 1,
+        "chunkPos": {
+            "l0": "final_report",
+            "l1": null,
+            "l2": null
+        },
+        "progress_perc": 100,
+        "scan_tables": 63,
+        "scan_rows": 6337,
+        "scan_cells": 41261,
+        "updt_tables": 8,
+        "updt_rows": 525,
+        "updt_cells": 545,
+        "errsql": [],
+        "errser": [],
+        "errkey": [],
+        "errsql_sum": 0,
+        "errser_sum": 0,
+        "errkey_sum": 0,
+        "profile_start": 1714100271.725327,
+        "profile_end": 1714100274.895052,
+        "time": "3.1697 sec.",
+        "err_all": 0,
+        "warn_all": 0,
+        "warnlist": []
+    },
+    "cTableParams": null,
+    "replaceData": [
+        {
+            "id": 0,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "path",
+            "search": "\/opt\/bitnami\/wordpress",
+            "replace": "C:\/xampp\/htdocs\/wordpress\/backup"
+        },
+        {
+            "id": 1,
+            "prority": 10,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/tkthinh.id.vn\/wp-content\/uploads",
+            "replace": "http:\/\/localhost\/wordpress\/backup\/wp-content\/uploads"
+        },
+        {
+            "id": 2,
+            "prority": 12,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "https:\/\/tkthinh.id.vn",
+            "replace": "http:\/\/localhost\/wordpress\/backup"
+        },
+        {
+            "id": 3,
+            "prority": 10,
+            "scope": [
+                "___!GLOBAL!___!SCOPE!___"
+            ],
+            "type": "urlnd",
+            "search": "http:\/\/tkthinh.id.vn\/wp-content\/mu-plugins",
+            "replace": "http:\/\/localhost\/wordpress\/backup\/wp-content\/mu-plugins"
+        }
+    ]
+}

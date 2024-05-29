@@ -1,5 +1,8 @@
 <?php
-
+// Exit if accessed directly
+if ( ! defined( 'ABSPATH' ) ) {
+    exit;
+}
 /**
  * The Keon Toolset hooks callback functionality of the plugin.
  *
@@ -84,7 +87,7 @@ class Keon_Toolset_Hooks {
                     <h2>
                         <?php
                         printf(
-                            esc_html__( 'Thank you for choosing %1$s! It is detected that an essential plugin, Advanced Import, is not activated. Importing demos for %1$s can begin after pressing the button below.', 'keon-toolset' ), '<strong>'. wp_get_theme()->get('Name'). '</strong>');
+                            esc_html__( 'Thank you for choosing %1$s! It is detected that an essential plugin, Advanced Import, is not activated. Importing demos for %1$s can begin after pressing the button below.', 'keon-toolset' ), '<strong>'. esc_html( wp_get_theme()->get('Name') ). '</strong>');
                         ?>
                     </h2>
 
@@ -1101,6 +1104,21 @@ class Keon_Toolset_Hooks {
                     set_transient( 'keon_toolset_demo_lists', $demo_lists, DAY_IN_SECONDS );
                 }
                 $demo_lists = get_transient( 'keon_toolset_demo_lists' );
+                break;
+            case 'bosa-portfolio-resume':
+                while( empty( get_transient( 'keon_toolset_demo_lists' ) ) ){
+                    $request_demo_list_body = wp_remote_retrieve_body( wp_remote_get( 'https://gitlab.com/api/v4/projects/53725287/repository/files/bosa%2Fbosa-portfolio-resume-demo-list%2Ejson?ref=main' ) );
+                    if( is_wp_error( $request_demo_list_body ) ) {
+                        return false; // Bail early
+                    }
+                    $demo_list_std     = json_decode( $request_demo_list_body, true );
+                    $demo_list_array   = (array) $demo_list_std;
+                    $demo_list_content = $demo_list_array['content'];
+                    $demo_lists_json   = base64_decode( $demo_list_content );
+                    $demo_lists        = json_decode( $demo_lists_json, true );
+                    set_transient( 'keon_toolset_demo_lists', $demo_lists, DAY_IN_SECONDS );
+                }
+                $demo_lists = get_transient( 'keon_toolset_demo_lists' );
                 break;                     
             default:
                 $demo_lists = array();
@@ -1234,6 +1252,7 @@ class Keon_Toolset_Hooks {
             case 'bosa-finance-business':
             case 'shoppable-wardrobe':
             case 'bosa-kindergarten':
+            case 'bosa-portfolio-resume':
                 /*attachments IDS*/
                 $attachment_ids = array(
                     'banner_image',

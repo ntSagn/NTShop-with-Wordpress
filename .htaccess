@@ -1,4 +1,5 @@
-
+# This file was updated by Duplicator on 2024-04-26 02:57:55.
+# See the original_files_ folder for the original source_site_htaccess file.
 # BEGIN WordPress
 # The directives (lines) between "BEGIN WordPress" and "END WordPress" are
 # dynamically generated, and should only be modified via WordPress filters.
@@ -6,11 +7,11 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
-RewriteBase /ntshop/
+RewriteBase /wordpress/backup/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /ntshop/index.php [L]
+RewriteRule . /wordpress/backup/index.php [L]
 </IfModule>
 
 # END WordPress
